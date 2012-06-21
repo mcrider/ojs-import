@@ -1,0 +1,27 @@
+=== ojs Import ===
+Contributors: mcrider
+Donate link:
+Tags: import, ojs, json, synchronize
+Requires at least: 3.0.0
+Tested up to: 3.2
+Stable tag: 0.2
+
+Plugin to synchronize a wordpress blog with an OJS source through the OJS REST plugin
+
+== Description ==
+
+This plugin reads JSON from an OJS site through its REST plugin.  Articles are imported as wordpress posts.
+
+By modifying the ojsimport-mapping.php file, you can map other forms of data from OJS (e.g. announcements, issues)
+to different forms of content in wordpress (e.g. pages).
+
+This plugin is based on the work from the SMW Import plugin (wordpress.org/extend/plugins/smw-import/) by Christoph Herbst.
+
+
+== Installation ==
+
+1. Upload `ojs-import` to the `/wp-content/plugins/` directory
+2. Activate the plugin through the 'Plugins' menu in WordPress
+3. Add data sources in the admin page
+4. Edit and adjust the mapping in the `ojsimport-mapping.php` file
+5. Run the import from the tools page
