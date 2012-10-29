@@ -1,4 +1,5 @@
 <?php
+/* Plugin name: OJS Import */
 /*
 
 Copyright (c) 2012, Matthew Crider
